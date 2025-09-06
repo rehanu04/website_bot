@@ -8,7 +8,7 @@ export default function App() {
   const [question, setQuestion] = useState("");
   const [chatHistory, setChatHistory] = useState([]);
   const [loading, setLoading] = useState(false);
-  const API_BASE_URL = "https://hosted-api-llm-bot-j9d8.onrender.com"; // Replace with your backend URL
+  const API_BASE_URL = "https://website-bot-5qr2.onrender.com/"; // Replace with your backend URL
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
